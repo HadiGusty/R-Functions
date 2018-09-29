@@ -1,15 +1,17 @@
-
 konstan <- function(x){        #membuat fungsi konstan f(x)=c
+  #misalkan c=4
   fx <- 4
   return(fx)
 }
 
 linear <- function(x){         #membuat fungsi linear f(x)=ax + b
+  #misalkan a=2, b=4
   fx <- 2*x+4
   return(fx)
 }
 
 kuadratik <- function(x){      #membuat fungsi kuadratik f(x)=ax^2 + bx + c
+  #misalkan a=-1, b=5, dan c=3
   fx <- -1*x^2+5*x+3
   return(fx)
 }
