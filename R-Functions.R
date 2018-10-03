@@ -46,9 +46,9 @@ polinomial <- function(x){     #membuat fungsi polinomial
 input <- seq(-10, 11, 0.1)
 plot(input, 
      sapply(input, polinomial), 
-            type = "l", 
-            xlab = "x",
-            ylab = "polinomial(x)")
+     type = "l", 
+     xlab = "x",
+     ylab = "polinomial(x)")
 
 rasional <- function(x){       #membuat fungsi rasional f(x)=1/x
   fx <- 1/x
